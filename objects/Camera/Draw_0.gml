@@ -6,10 +6,12 @@ var uniform_fog_start = shader_get_uniform(shd_basic_3d_stuff, "fogStart");
 var uniform_fog_end = shader_get_uniform(shd_basic_3d_stuff, "fogEnd");
 shader_set_uniform_f(uniform_fog_start, 100);
 shader_set_uniform_f(uniform_fog_end, 1000);
-var uniform_light_dir = shader_get_uniform(shd_basic_3d_stuff, "lightDirection");
+var uniform_light_pos = shader_get_uniform(shd_basic_3d_stuff, "lightPosition");
 var uniform_light_color = shader_get_uniform(shd_basic_3d_stuff, "lightColor");
-shader_set_uniform_f(uniform_light_dir, -1, 1, -1);
+var uniform_light_range = shader_get_uniform(shd_basic_3d_stuff, "lightRange");
+shader_set_uniform_f(uniform_light_pos, 250, 250, 64);
 shader_set_uniform_f(uniform_light_color, 1, 0.5, 0.5, 1);
+shader_set_uniform_f(uniform_light_range, 200);
 
 // 3D projections require a view and projection matrix
 var camera = camera_get_active();

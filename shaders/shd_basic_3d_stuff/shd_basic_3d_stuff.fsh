@@ -11,7 +11,7 @@ uniform float fogEnd;
 
 void main() {
     vec4 starting_color = v_vColour * texture2D(gm_BaseTexture, v_vTexcoord);
-    
+    /*
     vec4 fogColor = vec4(0.0, 0.0, 0.0, 1.0);
     float dist = length(v_worldPosition);
     
@@ -19,6 +19,7 @@ void main() {
     //float fraction = clamp(fogStart / max(dist, 0.01), 0.0, 1.0);
     
     vec4 final_color = mix(starting_color, fogColor, fraction);
-    
+    */
+    vec4 final_color = starting_color;
     gl_FragColor = final_color;
 }
