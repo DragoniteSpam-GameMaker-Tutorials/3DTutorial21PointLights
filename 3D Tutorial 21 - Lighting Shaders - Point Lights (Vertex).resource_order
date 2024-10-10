@@ -1,0 +1,23 @@
+{
+  "FolderOrderSettings":[
+    {"name":"Configurations","order":20,"path":"folders/Configurations.yy",},
+    {"name":"Extensions","order":18,"path":"folders/Extensions.yy",},
+    {"name":"Fonts","order":13,"path":"folders/Fonts.yy",},
+    {"name":"Notes","order":17,"path":"folders/Notes.yy",},
+    {"name":"Objects","order":15,"path":"folders/Objects.yy",},
+    {"name":"Options","order":19,"path":"folders/Options.yy",},
+    {"name":"Paths","order":10,"path":"folders/Paths.yy",},
+    {"name":"Rooms","order":16,"path":"folders/Rooms.yy",},
+    {"name":"Scripts","order":11,"path":"folders/Scripts.yy",},
+    {"name":"Shaders","order":12,"path":"folders/Shaders.yy",},
+    {"name":"Sounds","order":9,"path":"folders/Sounds.yy",},
+    {"name":"Tile Sets","order":8,"path":"folders/Tile Sets.yy",},
+    {"name":"Timelines","order":14,"path":"folders/Timelines.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"Ball","order":2,"path":"objects/Ball/Ball.yy",},
+    {"name":"Player","order":1,"path":"objects/Player/Player.yy",},
+    {"name":"load_model","order":1,"path":"scripts/load_model/load_model.yy",},
+    {"name":"screen_to_world","order":3,"path":"scripts/screen_to_world/screen_to_world.yy",},
+  ],
+}
